@@ -1,9 +1,273 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
+
 <head>
-    <meta http-equiv="refresh" content="0; url=./perfil.html">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego de Souza Morais - Portfólio</title>
+    <link rel="stylesheet" href="/Portifolio-Diego/styles.css">
 </head>
+
 <body>
-    <p>Redirecionando...</p>
+    <header>
+        <div class="header-content">
+            <img src="/Portifolio-Diego/assets/Diego.jpg" alt="Foto Diego" class="profile-photo">
+            <h1>Diego de Souza Morais</h1>
+            <p class="slogan">Desenvolver é criar valor em forma de código</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <div class="sobre-content">
+                <div class="sobre-info">
+                    <p>Olá! Sou Diego de Souza Morais, desenvolvedor apaixonado por criar soluções tecnológicas e
+                        inovadoras. Venho pegando experiência em desenvolvimento web e mobile focado em Full-Stack,
+                        busco sempre aprender novas
+                        tecnologias e aplicá-las em projetos desafiadores.</p>
+                    <p>Minha jornada na programação começou há alguns anos e desde então venho me dedicando a aprimorar
+                        minhas habilidades técnicas e soft skills. Acredito que a tecnologia pode transformar o mundo e
+                        fazer a diferença na vida das pessoas através da resolução de problemas.</p>
+                    <p>Quando não estou codando, gosto de ler livros sobre tecnologia e aprendizados da vida, jogar e
+                        passar tempo com a família e amigos.</p>
+                </div>
+                <div class="sobre-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">4</div>
+                        <div>Projetos</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">1</div>
+                        <div>Ano</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div>Dedicação</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <div class="habilidades-grid">
+                <div class="habilidade-categoria">
+                    <h3>Frontend</h3>
+                    <div class="habilidade-item">
+                        <span>HTML5</span>
+                        <div class="habilidade-bar">
+                            <div class="habilidade-progresso" style="width: 80%"></div>
+                        </div>
+                        <span>80%</span>
+                    </div>
+                    <div class="habilidade-item">
+                        <span>CSS3</span>
+                        <div class="habilidade-bar">
+                            <div class="habilidade-progresso" style="width: 85%"></div>
+                        </div>
+                        <span>85%</span>
+                    </div>
+                    <div class="habilidade-item">
+                        <span>JavaScript</span>
+                        <div class="habilidade-bar">
+                            <div class="habilidade-progresso" style="width: 80%"></div>
+                        </div>
+                        <span>80%</span>
+                    </div>
+                </div>
+                <div class="habilidade-categoria">
+                    <h3>Backend</h3>
+                    <div class="habilidade-item">
+                        <span>Java</span>
+                        <div class="habilidade-bar">
+                            <div class="habilidade-progresso" style="width: 75%"></div>
+                        </div>
+                        <span>75%</span>
+                    </div>
+                    <div class="habilidade-item">
+                        <span>Python</span>
+                        <div class="habilidade-bar">
+                            <div class="habilidade-progresso" style="width: 50%"></div>
+                        </div>
+                        <span>50%</span>
+                    </div>
+                    <div class="habilidade-item">
+                        <span>SQL</span>
+                        <div class="habilidade-bar">
+                            <div class="habilidade-progresso" style="width: 65%"></div>
+                        </div>
+                        <span>65%</span>
+                    </div>
+                </div>
+                <div class="habilidade-categoria">
+                    <h3>Ferramentas</h3>
+                    <div class="habilidade-item">
+                        <span>Git</span>
+                        <div class="habilidade-bar">
+                            <div class="habilidade-progresso" style="width: 85%"></div>
+                        </div>
+                        <span>85%</span>
+                    </div>
+                    <div class="habilidade-item">
+                        <span>Docker</span>
+                        <div class="habilidade-bar">
+                            <div class="habilidade-progresso" style="width: 60%"></div>
+                        </div>
+                        <span>60%</span>
+                    </div>
+                    <div class="habilidade-item">
+                        <span>Intellij</span>
+                        <div class="habilidade-bar">
+                            <div class="habilidade-progresso" style="width: 85%"></div>
+                        </div>
+                        <span>85%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="projetos-grid">
+                <article class="projeto-card">
+                    <div class="projeto-img">Agenda de Contatos</div>
+                    <div class="projeto-info">
+                        <h3>Agenda de Contatos simples com CRUD em arquivos.txt</h3>
+                        <p>(Em produção)</p>
+                        <div class="projeto-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">IntelliJ IDEA</span>
+                            <span class="tech-tag">JavaFX</span>
+                            <span class="tech-tag">Maven</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="projeto-card">
+                    <div class="projeto-img">Módulo de Autenticação</div>
+                    <div class="projeto-info">
+                        <h3>Módulo exclusivo de Autenticação</h3>
+                        <p>(Em produção)</p>
+                        <div class="projeto-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">HTML</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="projeto-card">
+                    <div class="projeto-img">App Mobile</div>
+                    <div class="projeto-info">
+                        <h3>App de Aeronaves</h3>
+                        <p>(Em produção)</p>
+                        <div class="projeto-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="projeto-card">
+                    <div class="projeto-img">Cadastro com Banco de Dados</div>
+                    <div class="projeto-info">
+                        <h3>Sistema de Cadastro de alunos com Banco de Dados</h3>
+                        <p>(Em produção)</p>
+                        <div class="projeto-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">JUnit</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <div class="contato-item">
+                        <span>📧</span>
+                        <div>
+                            <strong>E-mail</strong>
+                            <p>diegodecstraid@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <span>📱</span>
+                        <div>
+                            <strong>Telefone</strong>
+                            <p>(16) 99723-9272</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <span>📍</span>
+                        <div>
+                            <strong>Localização</strong>
+                            <p>Araraquara, SP</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <span>💼</span>
+                        <div>
+                            <strong>LinkedIn</strong>
+                            <p><a href="https://www.linkedin.com/in/diego-souza-dev/">diego-souza-dev</a></p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contato-form">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <aside>
+        <h3 style="text-align: center; margin-bottom: 1rem;">Redes Sociais</h3>
+        <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/diego-souza-dev/" class="social-link" title="LinkedIn">💼</a>
+            <a href="https://github.com/DiegoSouza01" class="social-link" title="GitHub">🐙</a>
+        </div>
+    </aside>
+
+    <footer>
+        <p>&copy; 2025 Diego de Souza Morais. Todos os direitos reservados.</p>
+        <p>☕</p>
+    </footer>
+    <script src="/Portifolio-Diego/app.js"></script>
 </body>
+
 </html>
