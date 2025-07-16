@@ -2,7 +2,7 @@
 
 ## 📋 Sobre o Projeto
 
-Este é meu portfólio pessoal desenvolvido para apresentar minha trajetória como desenvolvedor Full-Stack, destacando minhas habilidades técnicas, projetos realizados e formas de contato profissional.
+Esse é meu portfólio pessoal desenvolvido para apresentar minha trajetória como desenvolvedor Full-Stack, destacando minhas habilidades técnicas, projetos realizados e formas de contato profissional.
 
 ## 🎯 Propósito
 
@@ -37,7 +37,6 @@ O portfólio foi desenvolvido com foco em responsividade, garantindo uma experi�
 ## 🎨 Características do Design
 
 - **Paleta de Cores Moderna** - Tons de azul e cinza para transmitir profissionalismo
-- **Tipografia Limpa** - Fonte Segoe UI para melhor legibilidade
 - **Animações Suaves** - Transições e efeitos que melhoram a experiência do usuário
 - **Layout Flexível** - Grid system para organização eficiente do conteúdo
 
