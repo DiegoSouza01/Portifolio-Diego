@@ -191,14 +191,12 @@
         width: 80%;
     }
 
-    /* Main Content */
     main {
         max-width: 1200px;
         margin: 0 auto;
         padding: 2rem;
     }
 
-    /* Seções */
     section {
         margin-bottom: 4rem;
         padding: 2rem;
@@ -239,7 +237,6 @@
         border-radius: 2px;
     }
 
-    /* Sobre Mim */
     .sobre-content {
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -273,7 +270,6 @@
         color: var(--cor-secundaria);
     }
 
-    /* Habilidades */
     .habilidades-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -315,7 +311,6 @@
         transition: width 1s ease;
     }
 
-    /* Projetos */
     .projetos-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -371,7 +366,6 @@
         font-size: 0.8rem;
     }
 
-    /* Contato */
     .contato-content {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -447,7 +441,6 @@
         box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
     }
 
-    /* Aside */
     aside {
         background: var(--cor-card);
         padding: 2rem;
@@ -481,7 +474,6 @@
         transform: scale(1.1);
     }
 
-    /* Footer */
     footer {
         background: var(--cor-primaria);
         color: white;
@@ -500,7 +492,6 @@
         background: var(--gradiente);
     }
 
-    /* Responsividade */
     @media (max-width: 768px) {
         .header-content {
             padding: 0 1rem;
@@ -510,7 +501,6 @@
             font-size: 2rem;
         }
 
-        /* Menu Mobile */
         .hamburger {
             display: flex;
         }
@@ -594,7 +584,6 @@
         }
     }
 
-    /* Animações */
     @keyframes fadeInUp {
         from {
             opacity: 0;
